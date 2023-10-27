@@ -6,34 +6,33 @@ is still in progress (to see current functionalities read VersionNotes).
 
 <code>
   
-  //Declare your array
-  int myArray[size] = {2, 1, 5, 4};
-  
-  //Call the function that you need
-  SortIntMatrix(myArray, size);
-  
-  printf("Sorted array:\n");
-  for(int i = 0; i < size; i++){
-    printf("%d ", myArray[i]);
-  }
-  InvSortIntMatrix(myArray, size);
-  printf("\n\nInverted sorted array:\n");
-  for(int i = 0; i < size; i++){
-    printf("%d ", myArray[i]);
-  }
-
-  /* OUTPUT */
-  /*
-  Sorted array:
-  1 2 4 5
-
-  Inverted sorted array:
-  5 4 2 1
-  */
+        //Declare your array
+        int myArray[size] = {2, 1, 5, 4};
+        
+        //Call the function that you need
+        SortIntMatrix(myArray, size);
+        
+        printf("Sorted array:\n");
+        for(int i = 0; i < size; i++){
+          printf("%d ", myArray[i]);
+        }
+        InvSortIntMatrix(myArray, size);
+        printf("\n\nInverted sorted array:\n");
+        for(int i = 0; i < size; i++){
+          printf("%d ", myArray[i]);
+        }
+      
+        /* OUTPUT */
+        /*
+        Sorted array:
+        1 2 4 5
+      
+        Inverted sorted array:
+        5 4 2 1
+        */
   
 </code>
 
-<code> //asasasa </code>
 
 <p><b><u><i>NOTE:</u></b> This is an example of one of the functions. If you need another functionalitie check de VersionNotes file.</i></p>
 
