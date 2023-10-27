@@ -1,0 +1,9 @@
+Functionalities:
+
+void SortIntMatrix(int matrix[], int size) ->  Function for sort int arrays of one dimension (Bubblesort)
+
+void InvSortIntMatrix(int matrix[], int size) -> Function for sort int arrays of one dimension (biggest first) (Bubblesort)
+
+void SortDoubleMatrix(double matrix[], int size) -> Function for sort double arrays of one dimension (Bubblesort)
+
+void InvSortDoubleMatrix(double matrix[], int size) -> Function for sort double arrays of one dimension (biggest first) (Bubblesort)
