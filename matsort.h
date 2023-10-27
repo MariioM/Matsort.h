@@ -6,27 +6,72 @@
 #ifndef matsort_h
 #define matsort_h
 
-int aux; //Auxiliar variable
+int iAux; //Int auxiliar variable
+double dAux; //
 
 /*
-    Function for int arrays of one dimension
-                (Bubble Sort)
+    Function for sort int arrays of one dimension
+                (Bubblesort)
 */
 void SortIntMatrix(int matrix[], int size){
-    aux = 0;
-    for(int i = 0; i < size; i++){
-        for(int j = 1; j < size; j++){
-            if(matrix[i] > matrix[j]){
-                aux = matrix[i];
-                matrix[i] = matrix[j];
-                matrix[j] = aux;
+    for(int i = 0; i < size - 1; i++){
+        for(int j = 0; j < size - i - 1; j++){
+            if(matrix[j] > matrix[j+1]){
+                iAux = matrix[j];
+                matrix[j] = matrix[j+1];
+                matrix[j+1] = iAux;
             }
         }
     }
-    if(aux != 0){
-        SortIntMatrix(matrix, size);
+}
+
+/*
+    Function for sort int arrays of one dimension (biggest first)
+                (Bubblesort)
+*/
+
+void InvSortIntMatrix(int matrix[], int size){
+    for(int i = 0; i < size - 1; i++){
+        for(int j = 0; j < size - i - 1; j++){
+            if(matrix[j] < matrix[j+1]){
+                iAux = matrix[j];
+                matrix[j] = matrix[j+1];
+                matrix[j+1] = iAux;
+            }
+        }
     }
 }
 
+/*
+    Function for sort double arrays of one dimension
+                (Bubblesort)
+*/
+void SortDoubleMatrix(double matrix[], int size){
+    for(int i = 0; i < size - 1; i++){
+        for(int j = 0; j < size - i - 1; j++){
+            if(matrix[j] > matrix[j+1]){
+                dAux = matrix[j];
+                matrix[j] = matrix[j+1];
+                matrix[j+1] = dAux;
+            }
+        }
+    }
+}
+
+/*
+    Function for sort double arrays of one dimension (biggest first)
+                (Bubblesort)
+*/
+void InvSortDoubleMatrix(double matrix[], int size){
+    for(int i = 0; i < size - 1; i++){
+        for(int j = 0; j < size - i - 1; j++){
+            if(matrix[j] < matrix[j+1]){
+                dAux = matrix[j];
+                matrix[j] = matrix[j+1];
+                matrix[j+1] = dAux;
+            }
+        }
+    }
+}
 
 #endif /* matsort_h */

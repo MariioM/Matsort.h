@@ -4,11 +4,11 @@
 void SortIntMatrix(int matrix[], int size);
 
 int main(){
-    int array[4] = {2, 1, 5, 4};
+    double array[4] = {2.43, 1.233, 5.912, 5.452};
     int a;
-    SortIntMatrix(array, 4);
+    InvSortDoubleMatrix(array, 4);
     for(int i = 0; i < 4; i++){
-        printf("%d", array[i]);
+        printf("%f ", array[i]);
     }
     scanf("%d", &a);
     return 0;
