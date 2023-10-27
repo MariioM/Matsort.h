@@ -1,7 +1,10 @@
 /*
-    Date: 27/10/2023
-    Author: Mario Martínez Vitutia
+    Date of creation: 27/10/2023
 */
+
+/* This file is subject to the terms of the GNU General Public License, 
+ * Version 3 or any later version, at the option of the copyright holder. */
+
 
 #ifndef matsort_h
 #define matsort_h
