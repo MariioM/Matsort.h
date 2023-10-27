@@ -7,7 +7,9 @@ is still in progress (to see current functionalities read VersionNotes).
 
   
 <code>
-  
+    
+    /* INCLUDE IN YOUR MAIN WITH STDIO.H */
+    
     //Declare your array
     int myArray[size] = {2, 1, 5, 4};
         
