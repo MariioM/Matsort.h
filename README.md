@@ -42,6 +42,9 @@ is still in progress (to see current functionalities read VersionNotes).
 <h2>Contribution</h2>
 If you find any bugs or have suggestions for improving the program or adding functionalities, please feel free to open an issue or submit a pull request.
 
+<h2>License</h2>
+This project is licensed under the GPU GPLv3 - see the <a href="https://github.com/MariioM/Matsort.h/blob/main/LICENSE">LICENSE</a> file for details.
+
 <hr>
 
 Feel free to modify this README according to your specific project and requirements. Keeping it clear, concise, and informative will help users understand and use your matrix sorting C header file effectively.
