@@ -4,9 +4,9 @@ Matsort.h is an open-source header that allows to sort arrays in C. By the momen
 is still in progress (to see current functionalities read VersionNotes).
 <h2>Example of usage</h2>
 
-<code>
+
   
-    //Declare your array
+    <code>//Declare your array
     int myArray[size] = {2, 1, 5, 4};
         
     //Call the function that you need
@@ -29,9 +29,7 @@ is still in progress (to see current functionalities read VersionNotes).
       
     Inverted sorted array:
     5 4 2 1
-    */
-  
-</code>
+    */</code>
 
 
 <p><b><u><i>NOTE:</u></b> This is an example of one of the functions. If you need another functionalitie check de VersionNotes file.</i></p>
