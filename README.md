@@ -6,30 +6,30 @@ is still in progress (to see current functionalities read VersionNotes).
 
 <code>
   
-        //Declare your array
-        int myArray[size] = {2, 1, 5, 4};
+    //Declare your array
+    int myArray[size] = {2, 1, 5, 4};
         
-        //Call the function that you need
-        SortIntMatrix(myArray, size);
+    //Call the function that you need
+    SortIntMatrix(myArray, size);
         
-        printf("Sorted array:\n");
-        for(int i = 0; i < size; i++){
-          printf("%d ", myArray[i]);
-        }
-        InvSortIntMatrix(myArray, size);
-        printf("\n\nInverted sorted array:\n");
-        for(int i = 0; i < size; i++){
-          printf("%d ", myArray[i]);
-        }
+    printf("Sorted array:\n");
+    for(int i = 0; i < size; i++){
+      printf("%d ", myArray[i]);
+    }
+    InvSortIntMatrix(myArray, size);
+    printf("\n\nInverted sorted array:\n");
+    for(int i = 0; i < size; i++){
+      printf("%d ", myArray[i]);
+    }
       
-        /* OUTPUT */
-        /*
-        Sorted array:
-        1 2 4 5
+    /* OUTPUT */
+    /*
+    Sorted array:
+    1 2 4 5
       
-        Inverted sorted array:
-        5 4 2 1
-        */
+    Inverted sorted array:
+    5 4 2 1
+    */
   
 </code>
 
