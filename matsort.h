@@ -77,4 +77,37 @@ void InvSortDoubleMatrix(double matrix[], int size){
     }
 }
 
+/*
+    Function for sort character arrays of one dimension
+                (Bubblesort)
+*/
+
+void SortCharMatrix(char matrix[], int size){
+    for(int i = 0; i < size - 1; i++){
+        for(int j = 0; j < size - i - 1; j++){
+            if(matrix[j] > matrix[j+1]){
+                dAux = matrix[j];
+                matrix[j] = matrix[j+1];
+                matrix[j+1] = dAux;
+            }
+        }
+    }
+}
+
+/*
+    Function for sort character arrays of one dimension (biggest first)
+                (Bubblesort)
+*/
+void InvSortCharMatrix(char matrix[], int size){
+    for(int i = 0; i < size - 1; i++){
+        for(int j = 0; j < size - i - 1; j++){
+            if(matrix[j] < matrix[j+1]){
+                dAux = matrix[j];
+                matrix[j] = matrix[j+1];
+                matrix[j+1] = dAux;
+            }
+        }
+    }
+}
+
 #endif /* matsort_h */
