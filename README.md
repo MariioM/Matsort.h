@@ -48,4 +48,4 @@ This project is licensed under the GPU GPLv3 - see the <a href="https://github.c
 
 <hr>
 
-Feel free to modify this README according to your specific project and requirements. Keeping it clear, concise, and informative will help users understand and use your matrix sorting C header file effectively.
+Feel free to modify this README according to your specific changes if neccesary. Keeping it clear, concise, and informative will help other users understand, use and cointribute this C header file effectively.
