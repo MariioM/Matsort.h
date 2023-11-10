@@ -6,7 +6,8 @@ is still in progress (to see current functionalities read VersionNotes).
 
 
   
-<code>/* INCLUDE IN YOUR MAIN WITH STDIO.H */
+<code>
+    /* INCLUDE IN YOUR MAIN WITH STDIO.H */
     
     //Declare your array
     int myArray[size] = {2, 1, 5, 4};
@@ -31,7 +32,8 @@ is still in progress (to see current functionalities read VersionNotes).
       
     Inverted sorted array:
     5 4 2 1
-    */</code>
+    */
+    </code>
 
 
 <p><b><u><i>NOTE:</u></b> This is an example of one of the functions. If you need another functionalitie check de VersionNotes file.</i></p>
